@@ -1,3 +1,6 @@
+[![CI](https://github.com/alessandrocandolini/haskell-cart-queue/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/haskell-cart-queue/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/alessandrocandolini/haskell-cart-queue/graph/badge.svg?token=DMz0c9rmYq)](https://codecov.io/gh/alessandrocandolini/haskell-cart-queue)
+
+
 # haskell-cart-queue
 
 Illustration of how to use Haskell type system and concurrency abstractions to model intriguing, non-trivial challenges that arise in connection with the "Add to bug" functionality in a e-commerce frontend, when we allow buyers to increment, decrement, edit or clear quantity in a non-blocking way (ie, optimistically update the UI first, manage in background the requests, and deliver unexpected failures to the UI later) 
