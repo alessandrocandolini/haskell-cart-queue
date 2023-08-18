@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-cart-queue:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-cart-queue:exe:haskell-cart-queue-exe"
+
+    - path: "./app/Paths_haskell-cart-queue.hs"
+      component: "haskell-cart-queue:exe:haskell-cart-queue-exe"
+
+    - path: "./test"
+      component: "haskell-cart-queue:test:haskell-cart-queue-test"
+
